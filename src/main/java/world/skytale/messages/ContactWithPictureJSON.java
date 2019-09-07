@@ -1,4 +1,4 @@
-package world.skytale.JSONmodels;
+package world.skytale.messages;
 
 import java.io.Serializable;
 

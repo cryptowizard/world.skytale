@@ -1,6 +1,6 @@
 package world.skytale.MessageTypes;
 
-import world.skytale.JSONmodels.PublicProfileJSON;
+import world.skytale.messages.PublicProfileJSON;
 
 public class FriendRequest {
 

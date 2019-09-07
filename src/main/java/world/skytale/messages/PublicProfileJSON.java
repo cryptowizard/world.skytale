@@ -1,4 +1,4 @@
-package world.skytale.JSONmodels;
+package world.skytale.messages;
 
 import java.io.Serializable;
 
@@ -16,8 +16,8 @@ public class PublicProfileJSON implements Serializable {
     String [] links;
 
 
-    ContactJSON contact;
-    AttachedFileJSON profilePicture;
+    ContactWithPictureJSON contact;
+
 
 
 }

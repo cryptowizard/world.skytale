@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+package world.skytale.messages;
+
+
+message AttachedFile {
+     string fileName = 1;
+    bytes fileBytes = 2;
+}
+
+message Contact{
+    bytes publicKey=1;
+    string firstName=2;
+    string lastName=3;
+    string adress=4;
+}
+
+message ContactWithPicture
+{
+    Contact contact=1;
+    AttachedFile picture=2;
+}
+
+
+message Post {
+    string orginalSenderID =1;
+    int64 time = 2;
+    string link=3;
+    string text =4;
+    repeated AttachedFile attachments =5;
+
+
+}
+
+message PublicProfile
+{
+    ContactWithPicture contactWithPicture =1;
+    repeated string links =2;
+}

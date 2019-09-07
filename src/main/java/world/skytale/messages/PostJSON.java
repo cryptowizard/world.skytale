@@ -1,4 +1,4 @@
-package world.skytale.JSONmodels;
+package world.skytale.messages;
 
 import java.io.Serializable;
 
@@ -10,7 +10,11 @@ public class PostJSON implements Serializable {
     AttachedFileJSON[] attachments;
     long time;
     int viewType;
-    int displayPrioritY;
+
     String link;
     String orginalSenderID;
+
+
 }
+
+

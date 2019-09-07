@@ -1,4 +1,4 @@
-package world.skytale.JSONmodels;
+package world.skytale.messages;
 
 import java.io.Serializable;
 import java.security.PublicKey;
@@ -20,5 +20,8 @@ public class ContactJSON implements Serializable {
         PublicKey pb;
         return null;
     }
+
+
+
 
 }
